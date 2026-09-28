@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://zeha098.github.io/</loc>
   </url>
+
+  <url>
+    <loc>https://zeha098.github.io/guides/how-to-choose-an-ai-tool.html</loc>
+  </url>
+
 </urlset>
-<loc>https://zeha098.github.io/guides/how-to-choose-an-ai-tool.html</loc>
-</url>
