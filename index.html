@@ -1,292 +1,95 @@
 <!doctype html>
 <html lang="en">
 <head>
-
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-
-<title>AI Tools, Guides & Productivity Tips | AI Guide Hub</title>
-
-<meta name="description" content="Practical AI tool guides, software comparisons and productivity workflows. Learn how to choose AI tools and use technology more effectively.">
-
-<link rel="canonical" href="https://zeha098.github.io/">
-<meta name="robots" content="index, follow">
-
-<meta name="google-site-verification" content="YS5bxf6EhqP7luy-Q-SOLtoXALRZaPOXh69HVSv1Ydc"><meta name="google-adsense-account" content="ca-pub-2137356309884490">
-
-<meta property="og:type" content="website">
-<meta property="og:title" content="AI Tools, Guides & Productivity Tips | AI Guide Hub">
-<meta property="og:description" content="Practical AI tool guides, software comparisons and productivity workflows.">
-<meta property="og:url" content="https://zeha098.github.io/">
-<meta property="og:site_name" content="AI Guide Hub">
-
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="AI Tools, Guides & Productivity Tips | AI Guide Hub">
-
-<style>
-body{
-margin:0;
-font-family:Arial,sans-serif;
-color:#111827;
-background:#f7f8fc;
-line-height:1.6
-}
-
-header{
-background:#fff;
-border-bottom:1px solid #e5e7eb;
-padding:18px 6%;
-display:flex;
-justify-content:space-between
-}
-
-header b{font-size:22px}
-header span{color:#635bff}
-nav a{margin-left:18px;text-decoration:none;color:#374151}
-
-.hero{
-padding:90px 6%;
-background:#fff
-}
-
-.hero div{max-width:850px}
-.tag{color:#4f46e5;font-weight:bold}
-
-.hero h1{
-font-size:clamp(40px,7vw,68px);
-line-height:1.05;
-margin:15px 0
-}
-
-.hero p{
-font-size:19px;
-color:#667085
-}
-
-.btn{
-display:inline-block;
-background:#635bff;
-color:white;
-padding:12px 18px;
-border-radius:10px;
-text-decoration:none;
-font-weight:bold
-}
-
-.wrap{
-max-width:1100px;
-margin:auto;
-padding:0 6%
-}
-
-section{padding:65px 0}
-h2{font-size:34px}
-.lead{color:#667085}
-
-.grid{
-display:grid;
-grid-template-columns:repeat(3,1fr);
-gap:18px
-}
-
-.card{
-background:white;
-border:1px solid #e5e7eb;
-border-radius:15px;
-padding:24px
-}
-
-.card small{
-color:#4f46e5;
-font-weight:bold
-}
-
-.card h3{margin:8px 0}
-.card p{color:#667085}
-
-.card a{
-color:#111827;
-text-decoration:none
-}
-
-.about{
-background:#111827;
-color:white
-}
-
-.about p{color:#cbd5e1}
-
-footer{
-padding:30px 6%;
-color:#667085
-}
-
-footer a{
-margin-right:15px
-}
-
-@media(max-width:750px){
-nav{display:none}
-.grid{grid-template-columns:1fr}
-.hero{padding:60px 6%}
-}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Tools, Guides & Productivity Tips | AI Guide Hub</title>
+  <meta name="description" content="Practical guides to choosing AI tools, studying with AI, comparing workflows, and using technology more effectively.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://zeha098.github.io/">
+  <meta name="google-site-verification" content="YS5bxf6EhqP7luy-Q-SOLtoXALRZaPOXh69HVSv1Ydc">
+  <meta name="google-adsense-account" content="ca-pub-2137356309884490">
+  <style>
+:root{--ink:#202235;--muted:#5d6278;--brand:#635bff;--bg:#f7f8fc;--card:#fff;--line:#e4e7f0}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;line-height:1.7;color:var(--ink);background:var(--bg)}
+header{background:#fff;border-bottom:1px solid var(--line)}
+.wrap{width:min(960px,92%);margin:auto}
+.top{padding:20px 0}
+.brand{font-size:1.35rem;font-weight:700;color:var(--ink);text-decoration:none}
+nav{display:flex;flex-wrap:wrap;gap:14px;margin-top:10px}
+nav a{color:var(--brand);text-decoration:none;font-weight:600;font-size:.95rem}
+main{padding:30px 0 50px}
+.hero,.panel,article,.link-card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px;margin-bottom:18px}
+h1{line-height:1.25;font-size:clamp(1.8rem,5vw,2.6rem);margin:.2em 0 .5em}
+h2{line-height:1.3;margin-top:1.5em}
+h3{margin-bottom:.3em}
+p,li{color:#3c4055}
+.lead{font-size:1.1rem;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.grid .panel{margin:0}
+.button{display:inline-block;background:var(--brand);color:#fff!important;text-decoration:none;padding:10px 15px;border-radius:9px;font-weight:700}
+a{overflow-wrap:anywhere}
+table{width:100%;border-collapse:collapse;background:#fff;margin:16px 0}
+th,td{border:1px solid var(--line);padding:10px;text-align:left;vertical-align:top}
+th{background:#f0f1ff}
+.notice{background:#f0f1ff;border-left:4px solid var(--brand);padding:12px 15px;border-radius:6px}
+footer{border-top:1px solid var(--line);background:#fff;padding:22px 0;color:var(--muted);font-size:.92rem}
+footer a{color:var(--brand)}
+@media(max-width:520px){.hero,.panel,article,.link-card{padding:17px}nav{gap:10px}table{font-size:.9rem}}
 </style>
 
 </head>
-
 <body>
-
-<header>
-<b>AI Guide <span>Hub</span></b>
-<nav>
-<a href="#guides">Guides</a>
-<a href="#comparisons">Comparisons</a>
-<a href="#about">About</a>
-</nav>
-</header>
-
-<main>
+<header><div class="wrap top">
+  <a class="brand" href="/">AI Guide Hub</a>
+  <nav aria-label="Main navigation">
+    <a href="/">Home</a>
+    <a href="/guides/how-to-choose-an-ai-tool.html">Choosing AI Tools</a>
+    <a href="/guides/ai-tools-for-students.html">AI for Students</a>
+    <a href="/guides/ai-tool-workflow-comparison.html">Tool Comparison</a>
+    <a href="/about.html">About</a>
+    <a href="/contact.html">Contact</a>
+    <a href="/privacy-policy.html">Privacy</a>
+  </nav>
+</div></header>
+<main><div class="wrap">
 
 <section class="hero">
-<div>
-<div class="tag">AI • SOFTWARE • PRODUCTIVITY</div>
-
-<h1>AI Tools, Guides & Productivity Tips</h1>
-
-<p>
-Discover practical AI tools, software guides, comparisons and productivity workflows that help you work smarter and get more done.
-</p>
-
-<a class="btn" href="#guides">Explore guides</a>
-
-</div>
+  <p><strong>Practical AI learning</strong></p>
+  <h1>Choose AI tools with confidence</h1>
+  <p class="lead">Clear, beginner-friendly guides to help you understand AI tools, compare common use cases, and build better workflows without unnecessary complexity.</p>
+  <a class="button" href="/guides/how-to-choose-an-ai-tool.html">Start with our guide</a>
 </section>
-
 <section>
-<div class="wrap">
-
-<h2>Latest AI Guides</h2>
-
-<p>
-<a href="/guides/how-to-choose-an-ai-tool.html">
-How to Choose the Right AI Tool for a Specific Task
-</a>
-</p>
-
-<p>
-<a href="/guides/ai-tools-for-students.html">
-Best AI Tools for Students: A Practical Guide
-</a>
-</p>
-
-</div>
+  <h2>Explore our guides</h2>
+  <div class="grid">
+    <div class="panel"><h3>How to Choose an AI Tool</h3><p>Use a simple checklist to match a tool to your task, budget, privacy needs, and required features.</p><a href="/guides/how-to-choose-an-ai-tool.html">Read the guide →</a></div>
+    <div class="panel"><h3>AI Tools for Students</h3><p>Learn responsible ways to use AI for revision, research planning, note organization, and writing practice.</p><a href="/guides/ai-tools-for-students.html">Read the guide →</a></div>
+    <div class="panel"><h3>Compare AI Workflows</h3><p>Compare chat assistants, research tools, and writing helpers by task rather than by hype.</p><a href="/guides/ai-tool-workflow-comparison.html">Read the comparison →</a></div>
+  </div>
+</section>
+<section class="panel">
+  <h2>What makes a useful AI workflow?</h2>
+  <ol>
+    <li>Start with a specific task and define what a good result looks like.</li>
+    <li>Choose a tool that supports that task, not simply the most popular tool.</li>
+    <li>Check important facts against reliable sources.</li>
+    <li>Protect private, financial, workplace, and school information.</li>
+    <li>Review the result yourself before using or sharing it.</li>
+  </ol>
+</section>
+<section class="panel">
+  <h2>Our approach</h2>
+  <p>AI tools change frequently. Our guides focus on practical selection criteria and repeatable methods. Feature availability, pricing, and free-plan limits can change, so verify details on the provider's official website before making a decision.</p>
+  <a href="/about.html">Learn about AI Guide Hub →</a>
 </section>
 
-<section id="guides">
-<div class="wrap">
-
-<h2>Practical AI Guides</h2>
-<p class="lead">Useful explainers focused on real tasks.</p>
-
-<div class="grid">
-
-<article class="card">
-<small>AI BASICS</small>
-<h3>
-<a href="/guides/how-to-choose-an-ai-tool.html">
-How to choose an AI tool for a specific task
-</a>
-</h3>
-<p>
-A simple framework for comparing features, limits, privacy and ease of use.
-</p>
-</article>
-
-<article class="card">
-<small>STUDENT GUIDE</small>
-<h3>
-<a href="/guides/ai-tools-for-students.html">
-Best AI tools for students
-</a>
-</h3>
-<p>
-Practical ways students can use AI for studying, research, writing, note-taking and productivity.
-</p>
-</article>
-
-<article class="card">
-<small>PRODUCTIVITY</small>
-<h3>Reduce repetitive digital work</h3>
-<p>
-Identify routine tasks and decide where automation can actually help.
-</p>
-</article>
-
-</div>
-</div>
-</section>
-
-<section id="comparisons">
-<div class="wrap">
-
-<h2>Useful Comparisons</h2>
-<p class="lead">
-Decision-focused guides explaining important trade-offs.
-</p>
-
-<div class="grid">
-
-<article class="card">
-<small>COMPARISON</small>
-<h3>Chat assistants: what to compare</h3>
-<p>
-Research, writing, coding, files, speed, privacy and cost.
-</p>
-</article>
-
-<article class="card">
-<small>COMPARISON</small>
-<h3>AI image tools: choose by workflow</h3>
-<p>
-Compare generation, editing, consistency and ease of use.
-</p>
-</article>
-
-<article class="card">
-<small>SOFTWARE</small>
-<h3>Free vs paid software</h3>
-<p>
-Understand limits, support and when upgrading makes sense.
-</p>
-</article>
-
-</div>
-</div>
-</section>
-
-<section id="about" class="about">
-<div class="wrap">
-
-<h2>About AI Guide Hub</h2>
-
-<p>
-AI Guide Hub explains technology in practical language. We focus on useful workflows, honest comparisons and original educational content rather than hype.
-</p>
-
-</div>
-</section>
-
-</main>
-
-<footer>
-
-<a href="#about">About</a>
-<a href="#guides">Guides</a>
-<a href="#comparisons">Comparisons</a>
-
-<p>© 2026 AI Guide Hub</p>
-
-</footer>
-
+</div></main>
+<footer><div class="wrap">
+  <p>AI Guide Hub shares practical educational guides about AI tools and productivity. Always check each tool's current features, pricing, and terms.</p>
+  <p><a href="/about.html">About</a> · <a href="/contact.html">Contact</a> · <a href="/privacy-policy.html">Privacy Policy</a></p>
+  <p>© 2026 AI Guide Hub</p>
+</div></footer>
 </body>
 </html>
